@@ -10,7 +10,9 @@ st.title("Vehicle Data Analysis")
 
 # Dropdown for column selection
 st.header("Select a Column")
-columns = ['price', 'model_year', 'model', 'odometer']
+columns = (['price', 'model_year', 'model', 'odometer']
+           index=None
+)
 selected_column = st.selectbox("Select a column:", columns)
 
 # Display the selected column
