@@ -3,7 +3,7 @@ import pandas as pd
 
 # Load the data
 file_path = 'vehicles_us.csv'
-data = pd.read_csv('C:/Users/youss/OneDrive/Desktop/vehicles_us.csv')
+data = pd.read_csv('C:/Users/youss/OneDrive/Desktop/sprint4project')
 
 # Streamlit app
 st.title("Vehicle Data Analysis")
