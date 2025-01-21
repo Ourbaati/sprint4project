@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the data
-file_path = 'C:/Users/youss/OneDrive/Desktop/sprint4project/notebook/projet.ipynb'
+file_path = 'C:/Users/youss/OneDrive/Desktop/vehicles_us.csv'
 vehicles_df = pd.read_csv('file_path')
 
 # Streamlit app
