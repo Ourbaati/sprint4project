@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Load the data
 file_path = 'vehicles_us.csv'
-data = pd.read_csv(file_path)
+vehicles_df = pd.read_csv('C:/Users/youss/OneDrive/Desktop/vehicles_us.csv')
 
 # Streamlit app
 st.title("Vehicle Data Analysis")
