@@ -1,13 +1,10 @@
 import streamlit as st
 import pandas as pd
+st.title('Car Dataset Feature Explorer')
 
-st.write("Hello")
+options = ['Price', 'Odometer', 'Condition', 'Days Listed']
 
-option = st.selectbox("How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone"),
-    index=0,
-    placeholder="Select contact method...",
-)
+selected_option = st.selectbox('Select a feature to analyze:', options)
 
-st.write("You selected:", option)
+st.write("You selected:", selected_option)
 
